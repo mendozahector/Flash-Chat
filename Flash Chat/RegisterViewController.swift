@@ -10,7 +10,6 @@ import Firebase
 
 class RegisterViewController: UIViewController {
     //IBOutlets
-
     @IBOutlet var emailTextfield: UITextField!
     @IBOutlet var passwordTextfield: UITextField!
     
@@ -23,7 +22,7 @@ class RegisterViewController: UIViewController {
     }
   
     @IBAction func registerPressed(_ sender: AnyObject) {
-        //Set up a new user on our Firbase database
+        //Set up a new user on our Firebase database
         Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
             if error != nil {
                 print(error!)

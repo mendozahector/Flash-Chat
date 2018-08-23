@@ -9,7 +9,7 @@ import UIKit
 import Firebase
 
 class LogInViewController: UIViewController {
-    //Textfields IBOutlets
+    //IBOutlets
     @IBOutlet var emailTextfield: UITextField!
     @IBOutlet var passwordTextfield: UITextField!
     
