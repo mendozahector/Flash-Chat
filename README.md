@@ -11,6 +11,6 @@ Using Firebase to create a cloud-based group chat.
 * MVC
 
 ## Finished App
-![flashchat](flashchat.gif)
+<img src="flashchat.gif" width="250">
 
 Copyright © Hector Mendoza
