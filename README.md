@@ -2,8 +2,9 @@
 Using Firebase to create a cloud based group chat.
 
 - Users are able to register and login.
-- Messages are updated automaticaly.
+- Messages are updated automatically.
 
+### Skills
 * Firebase Realtime Database
 * UI Animations
 * Custom Cells
